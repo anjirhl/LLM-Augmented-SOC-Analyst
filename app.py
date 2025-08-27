@@ -29,7 +29,7 @@ def connect_splunk():
             host=os.getenv("SPLUNK_HOST", "localhost"),
             port=int(os.getenv("SPLUNK_PORT", 8089)),
             username=os.getenv("SPLUNK_USERNAME", "admin"),
-            password=os.getenv("SPLUNK_PASSWORD", "Admin@12345"),
+            password=os.getenv("SPLUNK_PASSWORD", "changeme"),
             scheme="https"
         )
         return service
@@ -389,3 +389,4 @@ if __name__ == "__main__":
         st.session_state.llm_chat_history = []
     # Optional: st.session_state.priv_esc_data = pd.DataFrame()
     main()
+
