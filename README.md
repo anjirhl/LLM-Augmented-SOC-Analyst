@@ -1,8 +1,3 @@
-Implementation
-
-The implementation phase translates the design and methodology into a working system that augments SOC operations with LLM-driven intelligence. This chapter elaborates the steps undertaken, technologies deployed, and scripts developed during the project execution. The system is deployed in a modular fashion, beginning with environment preparation, followed by knowledge base construction, data processing pipelines, and finally the classification interface. Each module is detailed below with implementation scripts and supporting explanations.
-
-
 Environment Setup
 
 The environment consisted of a Windows 11 host with 16 GB RAM and >8 cores, Docker Desktop, and Python 3.13.5 as the core programming language. The following software components were installed and configured and Python dependencies included streamlit, sentence-transformers, qdrant-client, and splunk-sdk. 
